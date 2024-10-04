@@ -1,0 +1,18 @@
+Day 4 
+https://github.com/roitraining/techtrek-python
+
+day3 
+
+curl http://10.142.0.9:8043/hello?name=mayank
+curl http://10.142.0.9:8043/hello?firstname=mayank&lastname=dwivedi
+curl -d "title=title1" -X POST http://10.142.0.9:8043/todo
+curl -d '{{"title": "title3", "completed": "True"}}' -H "Content-Type: application/json" -X POST http://10.142.0.9:8043/todo
+
+curl -d '{"title": "title3", "completed": "True"}' -X POST http://10.142.0.9:8043/todo
+
+accessCode=570-858-053 locale=en-US clickNum=975898088896370
+
+accessCode=696-395-508 locale=en-US clickNum=941399116326507
+
+https://www.rfc-editor.org/rfc/rfc2616
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
